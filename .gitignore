@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# ChromaDB Vector Database & Index
+chroma_db/
+*.sqlite3
+
+# Logs & Traces
+logs/
+logs/traces/
+*.log
+
+# Large Language Model Weights
+models/
+*.gguf
+*.bin
+
+# System Files
+.DS_Store
+Thumbs.db
+
